@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&display=swap');
+html {
+    scroll-padding-top: 80px; /* height of sticky header */
+  }
+.c-item {
+    height: 565px;
+}
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+.navbar-brand{
+    margin-top: 3px;
+}
+.navbar {
+    background-color: #f8f9fa; 
+    
+}
+.navbar-nav .nav-link {
+    color: #333; 
+}
+.navbar-nav .nav-link:hover {
+    color: #ffc105; 
+}
+.logo-img{
+    height : 60%;
+    width : 60%;
+}
+.navbar a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.big-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 2%;
+}
+.box {
+    margin: 40px;
+    background: rgba(137, 138, 131, 0.2);
+    border: 1px solid none;
+     /* Hide overflowing content */
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    width: 700px;
+    height: 120px;    
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center; /* Yatayda ortala */
+    display: flex;
+    align-items: center; /* Dikeyde ortala */
+    justify-content: center; /* Dikeyde ortala */
+    height: 100%; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4); 
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ffc105; /* Set your desired control icon color */
+}
+.btn {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.card {
+    margin-bottom: 30px;
+}
+.card-img-top {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+}
+.hizmet-baslık {
+    color: #333; /* Set your desired title color */
+    font-size: 1.5em;
+}
+.hizmetler h2 {
+    
+    font-weight: bold;
+    color: #ffd54f;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-text {
+    color: #777; 
+    font-size: 1em;
+}
+.container2 {
+    height: 500px;
+}
+#map {
+    width: 40%;
+    height: 300px; 
+}
+.map-text {
+    font-size: 18px;
+}
+.biz-kimiz p {
+    margin-bottom: 1em;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.biz-kimiz{
+    align-items: center;
+    text-align: justify;
+    margin-right: 80px;
+}
+.container-fluid {
+    display: flex;
+}
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 450px;
+    background-color: rgb(110, 105, 105);
+}
+
+
